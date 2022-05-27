@@ -1,13 +1,9 @@
-//плавный скролл
-//бесконечный скролл
-
 import SimpleLightbox from "simplelightbox";
-import Notiflix, { Notify } from 'notiflix';
+import { Notify } from 'notiflix';
 import { searchPics } from "./pixabay";
 
 import "simplelightbox/dist/simple-lightbox.min.css";
 import './css/styles.css';
-import simpleLightbox from "simplelightbox";
 
 const form = document.querySelector("#search-form");
 const input = document.querySelector("input");
