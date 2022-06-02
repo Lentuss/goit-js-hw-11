@@ -38,12 +38,10 @@ const createGallery = async () => {
         data.hits.map(({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) => {
           
             markup =
-                `<div class="photo-card">
-                    <div class="thumb">
+                `<div class="photo-card">         
                         <a class="photo-link" href="${webformatURL}">
                             <img src="${largeImageURL}" alt="${tags}" loading="lazy" height="260px"/>
-                        </a>
-                    </div>
+                        </a>                   
                     <div class="info">
                         <p class="info-item">
                             <b>Likes</b>
